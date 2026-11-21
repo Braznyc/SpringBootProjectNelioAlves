@@ -13,7 +13,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserRepository repository;
+    private UserRepository repository;  // From the interface "UserRepository"
 
     @GetMapping
     public List<User> findAll() { //This will return all users
